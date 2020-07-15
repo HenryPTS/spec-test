@@ -13,8 +13,6 @@
     "axios": "^0.19.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.1",
     "typescript": "~3.7.2"
@@ -49,7 +47,6 @@
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^5.3.19",
     "@types/axios": "^0.14.0",
-    "@types/react-router": "^5.1.8",
     "@types/styled-components": "^5.1.1"
   }
 }
