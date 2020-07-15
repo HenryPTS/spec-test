@@ -26,6 +26,7 @@ const FrontPage: FC<Props> = () => {
     error: undefined,
     category: "general"
   })
+
   useEffect(() => {
     async function fetchHeadlines() {
       try {
@@ -36,8 +37,8 @@ const FrontPage: FC<Props> = () => {
       }
     }
     fetchHeadlines();
-
   }, [state.category])
+
   return (
   <FrontPageContainer>
     <NavBar
@@ -53,10 +54,12 @@ const FrontPage: FC<Props> = () => {
     ) : ''}
   </FrontPageContainer>
   )
+
   function handleChangeCategory(category: ArticleCategory) {
     if (category === state.category) return;
     setState({ ...state, loading: true, articles: [], category })
   }
+
 }
 
 export default FrontPage

@@ -18,7 +18,7 @@ export default createGlobalStyle`
     margin: 0;
   }
   p {
-    font-family: 'Goudy Old Style'
+    font-family: 'Goudy Old Style';
   }
   div {
     box-sizing: border-box;
